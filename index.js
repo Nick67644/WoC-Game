@@ -9,7 +9,7 @@ client.on('ready', () =>
             assets: {
                 large_image: 'woc'
             },
-            details: '3.6K CODING SERVER!',
+            details: '4K+ CODING SERVER!',
             buttons: [
                 { label: 'Join Me!', url: 'https://discord.gg/XTsCQNd' }
             ]
