@@ -7,11 +7,12 @@ client.on('ready', () =>
         pid: process.pid,
         activity: {
             assets: {
-                large_image: 'woc'
+                large_image: 'pycord_logo' //woc
             },
-            details: '3.6K CODING SERVER!',
+            details: '8k+ CODING SERVER!', //Pycord new Discord.py!
             buttons: [
-                { label: 'Join Me!', url: 'https://discord.gg/XTsCQNd' }
+                { label: 'Join World of Coding!', url: 'https://discord.gg/pkShK9ax2X' }, //woc (Partner of Pycord)
+                { label: 'Join Pycord!', url: 'https://discord.gg/pycord'} //Pycord 
             ]
         }
     });
