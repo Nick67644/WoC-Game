@@ -7,12 +7,16 @@ client.on('ready', () =>
         pid: process.pid,
         activity: {
             assets: {
-                large_image: 'pycord_logo' //woc
+                large_image: 'woc', //WoC
+                small_image: 'pycord_logo', //Pycord
+                small_text: 'Pycord!',
+                large_text: "World of Coding!",
             },
-            details: '8k+ CODING SERVER!', //Pycord new Discord.py!
+
+            details: '11k+ CODING SERVER/REDDIT!', 
             buttons: [
                 { label: 'Join World of Coding!', url: 'https://discord.gg/pkShK9ax2X' }, //woc (Partner of Pycord)
-                { label: 'Join Pycord!', url: 'https://discord.gg/pycord'} //Pycord 
+                { label: 'Join r/code!', url: 'https://www.reddit.com/r/code'}, //r/code (Reddit page)
             ]
         }
     });
